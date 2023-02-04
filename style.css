@@ -3567,6 +3567,7 @@ td {
   place-items: center;
   border-radius: 50%;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .chat-section .client-chat .client-msg p:first-child {
@@ -3577,7 +3578,7 @@ td {
 .chat-section .client-chat .client-msg p:last-child {
   border: 1px solid #e8e8e8;
   max-width: 204px;
-  font-size: 14px;
+  font-size: 10px;
   color: #606060;
   padding: 10px;
   border-radius: 0px 5px 5px 5px;
@@ -3585,6 +3586,10 @@ td {
 
 .chat-section .my-chat {
   margin: 16px 0;
+}
+
+.chat-section .convo-time {
+  margin-right: 40px;
 }
 
 .chat-section .my-chat .my-msg-box {
@@ -3620,8 +3625,13 @@ td {
   text-align: right;
 }
 
+.chat-section .my-chat .my-msg-profile {
+  margin-left: 6px;
+}
+
 .chat-section .my-chat .my-msg-profile img {
-  width: 23px;
+  width: 35px;
+  height: 35px;
   display: flex;
   border-radius: 50%;
 }
@@ -3634,8 +3644,10 @@ td {
   background: #f4f4f4;
   height: 66px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 11px 11px 19px 16px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
 }
