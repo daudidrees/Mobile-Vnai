@@ -142,7 +142,16 @@ a:hover {
 }
 
 .new-account-title {
-  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.like-product-container {
+  background: #fff;
+}
+
+
+.like-product-bottom {
+  background: #f4f4f4;
 }
 
 .login-details-wrapper {
@@ -768,7 +777,7 @@ input[type=date] {
   font-size: 14px;
   margin-bottom: 0;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .ship-address-content {
@@ -835,7 +844,7 @@ td {
   font-size: 14px;
   margin-bottom: 0;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .order-btn-content {
@@ -958,7 +967,7 @@ td {
   font-size: 14px;
   margin-bottom: 0;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .main-merchant-4 {
@@ -978,7 +987,7 @@ td {
   font-size: 14px;
   margin-bottom: 0;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
@@ -1151,7 +1160,7 @@ td {
 
 .order-supply-table table tr td:nth-child(1) {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   max-width: 185px;
   font-size: 14px;
 }
@@ -2272,7 +2281,7 @@ td {
   height: 35px;
   display: grid;
   place-items: center;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 .follow-merchant-wrapper .follow-merchant-detail .merchant-follow-name h3 {
@@ -2867,12 +2876,16 @@ td {
 
 
 .checkout-merchant-item .checkout-item {
-  border: 1px solid #e8e8e8;
-  /* border-radius: 5px; */
   display: grid;
   place-items: center;
   width: 91px;
   position: relative;
+}
+
+.checkout-merchant-item .checkout-item > img {
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .checkout-merchant-item .checkout-item span {
@@ -2884,6 +2897,8 @@ td {
 .checkout-merchant-item .checkout-item span img {
   vertical-align: top;
   cursor: pointer;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
 .checkout-merchant-title p {
@@ -3567,7 +3582,7 @@ td {
   place-items: center;
   border-radius: 50%;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .chat-section .client-chat .client-msg p:first-child {
